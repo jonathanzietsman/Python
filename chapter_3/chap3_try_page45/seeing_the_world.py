@@ -1,4 +1,6 @@
+# List of places to visit
 locations = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Philadelphia']
+
 
 print('Original list: ')
 print(locations)
