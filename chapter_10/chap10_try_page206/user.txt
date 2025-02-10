@@ -1,1 +1,0 @@
-{"name": "Jonathan", "age": 23, "color": "blue"}

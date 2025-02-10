@@ -1,6 +1,0 @@
-In Python, you can work with a variety of data types like numbers, strings, lists, and dictionaries.
-In Python, you can use loops, such as for and while, to repeat actions or iterate over data.
-In Python, you can randomly select items from a list using the random.sample() function.
-In Python, you can write conditional statements using if, elif, and else to control the flow of your program.
-In Python, you can define and call functions to organize and reuse code efficiently.
-In Python, you can handle errors using try and except to prevent crashes and manage exceptions.
