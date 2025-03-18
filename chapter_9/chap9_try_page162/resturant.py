@@ -13,7 +13,7 @@ class Resturant:
     def open_resturant(self):
         print('This Resturant is Open')
 
-""" # Make an instance called restaurant from your class
+# Make an instance called restaurant from your class
 resturant = Resturant('Madjacks', 'Flapjacks')
 
 # Print the two attributes individually, and then call both methods.
@@ -21,4 +21,4 @@ print(resturant.rest_name)
 print(resturant.food_type)
 
 resturant.describe_resturant()
-resturant.open_resturant() """
+resturant.open_resturant()
