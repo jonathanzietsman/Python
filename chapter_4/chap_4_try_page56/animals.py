@@ -1,7 +1,10 @@
-# Think of at least three different animals that have a common characteristic. Store the names of these animals in a list, and then use a for loop to print out the name of each animal.
+# Create a list of animals that share a common characteristic (they all make great pets)
 animals = ["Dog", "Cat", "Rabbit"]
 
-for animal in animals :
+# Use a for loop to go through each animal in the list
+for animal in animals:
+    # Print a message about each animal
     print(f'A {animal} would make a great pet.')
 
+# Print a final message after the loop ends
 print('Any of these animals would make great pets!')
