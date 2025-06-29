@@ -1,14 +1,19 @@
 {% extends 'learning_logs/base.html' %}
 
 {% block page_header %}
+    <!-- Display the topic text as the page header -->
     <h1>{{ topic.text }}</h1>
 {% endblock page_header %}
 
 {% block content %}
+    <!-- Link to add a new entry for this topic -->
     <p> 
         <a href="{% url 'learning_logs:new_entry' topic.id %}">Add new entry</a> 
     </p>
+    
+    <!-- Loop through all entries for this topic -->
     {% for entry in entries %}
+        <!-- Bootstrap card for each entry -->
         <div class="card mb-3">
             <!-- Card header with timestamp and edit link -->
             <h4 class="card-header">
@@ -17,10 +22,11 @@
                     <a href="{% url 'learning_logs:edit_entry' entry.id %}"> edit entry</a>
                 </small>
             </h4>
-            <!-- Card body with entry text -->
+            <!-- Card body with entry text (preserving line breaks) -->
             <div class="card-body">{{ entry.text|linebreaks }}</div>
         </div>
     {% empty %}
+        <!-- Message shown when there are no entries -->
         <p>There are no entries for this topic yet.</p>
     {% endfor %}
 {% endblock content %}

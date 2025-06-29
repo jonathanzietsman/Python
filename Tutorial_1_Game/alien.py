@@ -15,7 +15,7 @@ class Alien(Sprite):
         self.settings = ai_game.settings
         
         # Load the alien image and get its rectangular boundaries
-        self.image = pygame.image.load(r'C:\01\Knowledge\Web Programming\codeCollage\Python\tutorial_1\alien.bmp')
+        self.image = pygame.image.load(r'C:\Users\j8760\Desktop\Programming\CodeCollage\Python\Tutorial_1_Game\alien.bmp')
         self.rect = self.image.get_rect()
         
         # Position each new alien near the top left of the screen

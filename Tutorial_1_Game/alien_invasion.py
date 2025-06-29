@@ -21,7 +21,7 @@ class AlienInvasion:
         
         # Set up the game clock for controlling frame rate
         self.clock = pygame.time.Clock()
-        self.settings = Settings()
+        self.settings = Settings() ####
         
         # Create a fullscreen window and store its dimensions
         self.screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
@@ -30,11 +30,11 @@ class AlienInvasion:
         pygame.display.set_caption('Alien Invasion')
         
         # Initialize game statistics and scoreboard
-        self.stats = GameStats(self)
-        self.sb = Scoreboard(self)
+        self.stats = GameStats(self) ####
+        self.sb = Scoreboard(self) ####
         
         # Create the player's ship and sprite groups for bullets and aliens
-        self.ship = Ship(self)
+        self.ship = Ship(self) ####
         self.bullets = pygame.sprite.Group()
         self.aliens = pygame.sprite.Group()
         

@@ -10,7 +10,7 @@ die_2 = Die()  # Second die with default 6 sides
 
 # Simulate rolling both dice 1000 times
 results = []  # List to store the sum of each roll
-for roll in range(1000):
+for roll in range(1000): #! ADJUSTED FOR DEMONSTRATION 1000
     result = die_1.roll() + die_2.roll()  # Roll both dice and add their values
     results.append(result)                 # Store the sum in our results list
 
@@ -35,4 +35,3 @@ fig.update_layout(xaxis_dtick=1)  # Show all integer values on x-axis
 # Save the interactive chart as an HTML file
 # This creates a webpage that shows the interactive visualization
 fig.write_html('die_visual.html')
-

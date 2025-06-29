@@ -22,8 +22,8 @@ class Settings:
         self.bullets_allowed = 12   # Maximum number of bullets on screen
         
         # Alien Settings
-        self.alien_speed = 2.0      # Horizontal movement speed
-        self.fleet_drop_speed = 3.0 # Vertical drop speed when fleet changes direction
+        self.alien_speed = 2.0      # Horizontal movement speed #! ADJUSTED FOR DEMONSTRATION 2.0 
+        self.fleet_drop_speed = 200.0 # Vertical drop speed when fleet changes direction #! ADJUSTED FOR DEMONSTRATION 3.0
 
         # Game Progression Settings
         self.speedup_scale = 1.1    # Factor by which game speeds up after each level

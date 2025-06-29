@@ -16,7 +16,7 @@ class Ship(Sprite):
         self.screen_rect = ai_game.screen.get_rect()
         
         # Load the ship's image and get its rectangular boundaries
-        self.image = pygame.image.load(r'C:\01\Knowledge\Web Programming\codeCollage\Python\tutorial_1\ship.bmp')
+        self.image = pygame.image.load(r'C:\Users\j8760\Desktop\Programming\CodeCollage\Python\Tutorial_1_Game\ship.bmp')
         self.rect = self.image.get_rect()
         
         # Position the ship at the bottom center of the screen

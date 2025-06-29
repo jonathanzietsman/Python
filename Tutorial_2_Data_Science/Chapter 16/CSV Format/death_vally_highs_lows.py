@@ -7,7 +7,7 @@ from datetime import datetime  # For parsing dates
 import matplotlib.pyplot as plt  # For creating the visualization
 
 # Set up the path to the Death Valley weather data file
-path = Path(r'C:\01\Knowledge\Web Programming\codeCollage\Python\tutorial_2\Chapter 16\CSV Format\weather_data\death_valley_2021_simple.csv')
+path = Path(r'C:\Users\j8760\Desktop\Programming\CodeCollage\Python\Tutorial_2_Data_Science\Chapter 16\CSV Format\weather_data\death_valley_2021_simple.csv')
 
 # Read the file and split it into lines
 lines = path.read_text().splitlines()
